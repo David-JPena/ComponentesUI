@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComponentesUI"
+        tools:targetApi="31">
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImagenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SnackbarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActionButtonAtivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpinnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RatingBarAtivity"
+            android:exported="false" />
+        <activity
+            android:name=".RadioButtontActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckBoxAcivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditTextActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ScrollOrizontalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
